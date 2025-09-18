@@ -1,22 +1,22 @@
 # 🏦 Mini Banking System (C++)
 
-برنامج بسيط لمحاكاة نظام بنك باستخدام **C++**.  
-المشروع بيتيح للمستخدم تسجيل حساب جديد أو تسجيل دخول، وبعدها التعامل مع الحساب من خلال عمليات الإيداع والسحب وغيرها.
+A simple console-based banking system built with **C++**.  
+This project allows users to sign up, sign in, and perform basic banking operations like depositing, withdrawing, and closing accounts.
 
 ---
 
 ## ✨ Features
-- 🔑 **Sign Up**: إنشاء حساب جديد (اسم - رقم حساب - رصيد أولي).
-- 🔓 **Sign In**: الدخول إلى الحساب الموجود.
-- 💰 **Deposit Money**: إضافة رصيد للحساب.
-- 💸 **Withdraw Money**: سحب رصيد من الحساب.
-- ❌ **Close Account**: إغلاق الحساب الحالي.
-- 🚪 **Exit**: الخروج من البرنامج.
+- 🔑 **Sign Up**: Create a new account (Name - Account Number - Initial Balance).
+- 🔓 **Sign In**: Log in to an existing account.
+- 💰 **Deposit Money**: Add balance to your account.
+- 💸 **Withdraw Money**: Withdraw balance from your account.
+- ❌ **Close Account**: Permanently close the current account.
+- 🚪 **Exit**: Exit the program.
 
 ---
 
 ## 🛠️ How to Run
-1. تأكد إن عندك **g++ compiler**.
-2. اعمل Compile للكود:
+1. Make sure you have a **C++ compiler** (e.g., g++) installed.
+2. Compile the code:
    ```bash
    g++ main.cpp -o bank
