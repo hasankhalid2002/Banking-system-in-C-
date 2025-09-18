@@ -1,16 +1,22 @@
-1 : sign up
-2 : sign in
-Please Chioce : 1
+# 🏦 Mini Banking System (C++)
 
-Please Enter Account Name : Ahmed
-Please Enter Account Number : 1234567890123456
-Please Enter Account Balance : 1000
+برنامج بسيط لمحاكاة نظام بنك باستخدام **C++**.  
+المشروع بيتيح للمستخدم تسجيل حساب جديد أو تسجيل دخول، وبعدها التعامل مع الحساب من خلال عمليات الإيداع والسحب وغيرها.
 
-Your Acount Number = 1234567890123456   Your Acount Balance = 1000$
+---
 
-Welcome To Your Account
-1. Deposit money
-2. Withdraw money
-3. Exit
-4. Close Account
-Enter your choice :
+## ✨ Features
+- 🔑 **Sign Up**: إنشاء حساب جديد (اسم - رقم حساب - رصيد أولي).
+- 🔓 **Sign In**: الدخول إلى الحساب الموجود.
+- 💰 **Deposit Money**: إضافة رصيد للحساب.
+- 💸 **Withdraw Money**: سحب رصيد من الحساب.
+- ❌ **Close Account**: إغلاق الحساب الحالي.
+- 🚪 **Exit**: الخروج من البرنامج.
+
+---
+
+## 🛠️ How to Run
+1. تأكد إن عندك **g++ compiler**.
+2. اعمل Compile للكود:
+   ```bash
+   g++ main.cpp -o bank
